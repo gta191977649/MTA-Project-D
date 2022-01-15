@@ -1,0 +1,15 @@
+<meta>
+    <!-- 
+    <script src="test.lua" type="client"/>
+    -->
+    <script src="ui.lua" type="client"/>
+    <file src="ref.png" type="client"/>
+    <file src="data/hud/time_background_extended.png" type="client"/>
+    <file src="data/hud/record_background_extended.png" type="client"/>
+    <file src="data/hud/record_background.png" type="client"/>
+    <file src="data/hud/name_background.png" type="client"/>
+    <file src="data/hud/map_background.png" type="client"/>
+
+    <file src="countdown.webm" type="client"/>
+    <file src="start.webm" type="client"/>
+</meta>
