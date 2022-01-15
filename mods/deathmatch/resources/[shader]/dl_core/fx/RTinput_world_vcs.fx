@@ -12,7 +12,7 @@ bool sDisableNormals = false;
 //------------------------------------------------------------------------------------------
 //#define GENERATE_NORMALS      // Uncomment for normals to be generated
 #include "mta-helper.fx"
-#define surfAmb 1
+//#define surfAmb 0.1
 #define ambient 0
 //------------------------------------------------------------------------------------------
 // Render targets
@@ -89,7 +89,7 @@ PSInput VertexShaderFunction(VSInput VS)
     //Process VCS Building Pipeline
 	PS.TexCoord = mul(Identity, float4(VS.TexCoord, 0.0, 1.0)).xy;
 	PS.Diffuse = PS.Diffuse*PS.Diffuse;
-	PS.Diffuse.rgb += ambient*surfAmb * 128.0/255.0;
+	PS.Diffuse.rgb += ambient * 128.0/255.0;
 
     
     return PS;
