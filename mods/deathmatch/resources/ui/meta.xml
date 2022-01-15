@@ -1,8 +1,9 @@
 <meta>
-    <!-- 
+    
     <script src="test.lua" type="client"/>
-    -->
+    
     <script src="ui.lua" type="client"/>
+    <file src="data/sfx/test.mp3" type="client"/>
     <file src="ref.png" type="client"/>
     <file src="data/hud/time_background_extended.png" type="client"/>
     <file src="data/hud/record_background_extended.png" type="client"/>

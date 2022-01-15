@@ -1,0 +1,67 @@
+
+<meta>
+<info author="Zver-CR" description="Tutorial | Adding custom objects" version="1.0" type="script" />  
+<script src="client.lua" type="client"/> 
+	<file src="mg1.txd" />
+	<file src="mg1.DFF" />
+	<file src="mg1.col" />
+	<file src="mg2.DFF" />
+	<file src="mg2.col" />
+	<file src="mg3.DFF" />
+	<file src="mg3.col" />
+	<file src="mg4.DFF" />
+	<file src="mg4.col" />
+	<file src="mg5.DFF" />
+	<file src="mg5.col" />
+	<file src="mg6.DFF" />
+	<file src="mg6.col" />
+	<file src="mg7.DFF" />
+	<file src="mg7.col" />
+	<file src="mg8.DFF" />
+	<file src="mg8.col" />
+	<file src="mg9.DFF" />
+	<file src="mg9.col" />
+	<file src="mg10.DFF" />
+	<file src="mg10.col" />
+	<file src="mg11.DFF" />
+	<file src="mg11.col" />
+	<file src="mg12.DFF" />
+	<file src="mg12.col" />
+	<file src="mg13.DFF" />
+	<file src="mg13.col" />
+	<file src="mg14.DFF" />
+	<file src="mg14.col" />
+	<file src="mg15.DFF" />
+	<file src="mg15.col" />
+	<file src="mg16.DFF" />
+	<file src="mg16.col" />
+	<file src="mg17.DFF" />
+	<file src="mg17.col" />
+	<file src="mg18.DFF" />
+	<file src="mg18.col" />
+	<file src="mg19.DFF" />
+	<file src="mg19.col" />
+	<file src="mg20.DFF" />
+	<file src="mg20.col" />
+	<file src="mg21.DFF" />
+	<file src="mg21.col" />
+	<file src="mg22.DFF" />
+	<file src="mg22.col" />
+	<file src="mg23.DFF" />
+	<file src="mg23.col" />
+	    <info type="map" version="1.0.0"></info>
+    <map src="Myogi.map" dimension="0"></map>
+    <settings>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ true ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.0080000004 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ true ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#time" value="12:0"></setting>
+    </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>

@@ -1,0 +1,83 @@
+<meta>  
+<info author="Supr1k" description="New Akina" version="1.0" type="script" />  
+<script src="client.lua" type="client"/>  
+<file src="ak1.txd"/>  
+<file src="ak1.dff"/>  
+<file src="ak1.col"/> 
+<file src="ak2.dff"/>
+<file src="ak2.col"/> 
+<file src="ak3.DFF"/>
+<file src="ak3.col"/>
+<file src="ak4.DFF"/>
+<file src="ak4.col"/>
+<file src="ak5.DFF"/>
+<file src="ak5.col"/>
+<file src="ak6.DFF"/>
+<file src="ak6.col"/>
+<file src="ak7.DFF"/>
+<file src="ak7.col"/>
+<file src="ak8.DFF"/>
+<file src="ak8.col"/>
+<file src="ak9.DFF"/>
+<file src="ak9.col"/>
+<file src="ak10.DFF"/>
+<file src="ak10.col"/>
+<file src="ak11.DFF"/>
+<file src="ak11.col"/>
+<file src="ak12.DFF"/>
+<file src="ak12.col"/>
+<file src="ak13.DFF"/>
+<file src="ak13.col"/>
+<file src="ak14.DFF"/>
+<file src="ak14.col"/>
+<file src="ak15.DFF"/>
+<file src="ak15.col"/>
+<file src="ak16.DFF"/>
+<file src="ak16.col"/>
+<file src="ak17.DFF"/>
+<file src="ak17.col"/>
+<file src="ak18.DFF"/>
+<file src="ak18.col"/>
+<file src="ak19.DFF"/>
+<file src="ak19.col"/>
+<file src="ak20.DFF"/>
+<file src="ak20.col"/>
+<file src="ak21.DFF"/>
+<file src="ak21.col"/>
+<file src="ak22.DFF"/>
+<file src="ak22.col"/>
+<file src="ak23.DFF"/>
+<file src="ak23.col"/>
+<file src="ak24.DFF"/>
+<file src="ak24.col"/>
+<file src="ak25.DFF"/>
+<file src="ak25.col"/>
+<file src="ak26.DFF"/>
+<file src="ak26.col"/>
+<file src="ak27.DFF"/>
+<file src="ak27.col"/>
+<file src="ak28.DFF"/>
+<file src="ak28.col"/>
+<file src="ak29.DFF"/>
+<file src="ak29.col"/>
+<file src="ak30.DFF"/>
+<file src="ak30.col"/>
+<file src="ak31.DFF"/>
+<file src="ak31.col"/>
+    <info gamemodes="play,amx,assault,briefcaserace,ctf,ctv,fallout,deathmatch,cdm,hay,race,stealth,tdm,tdma" type="map" version="1.0.0"></info>
+    <info type="map" version="1.0.0"></info>
+    <map src="Akina_rfactor.map" dimension="0"></map>
+    <settings>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ false ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.008 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ false ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#time" value="12:0"></setting>
+    </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>
