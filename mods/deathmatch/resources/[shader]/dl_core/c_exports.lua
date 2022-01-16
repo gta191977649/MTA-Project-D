@@ -5,6 +5,7 @@
 ----------------------------------------------------------------------------------------------------
 -- exports
 ----------------------------------------------------------------------------------------------------
+
 function getRenderTargets()
 	if targetTable.RTColor and targetTable.RTNormal then
 		return targetTable.RTColor, targetTable.RTNormal

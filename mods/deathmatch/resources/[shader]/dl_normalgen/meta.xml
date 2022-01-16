@@ -1,0 +1,8 @@
+<meta>
+    <info name="dl_normalgen" author="Ren712" version="0.0.3" type="script" />
+    <min_mta_version client="1.5.7-9.19626"></min_mta_version>
+    <include resource="dl_core" />
+    <script src="c_main.lua" type="client" />
+    <file src="fx/primitive2d_prepNormals.fx" type="client" />
+    <file src="fx/mta-helper.fx" type="client" />
+</meta>

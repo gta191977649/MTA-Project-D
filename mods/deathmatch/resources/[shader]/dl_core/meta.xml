@@ -31,6 +31,8 @@
 	<file src="fx/RTOutput_addBlend.fx" type="client" />
 	<file src="fx/primitive2D_fixZBuffer.fx" />
 	
+	<export function="setWorldObjectLighting" type="client" />
+	<export function="getWorldObjectLighting" type="client" />
 	<export function="getRenderTargets" type="client" />
 	<export function="passGTASAObjectNormals" type="client" />
 	<export function="applyEmissiveEffectToWorld" type="client" />

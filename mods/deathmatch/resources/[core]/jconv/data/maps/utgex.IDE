@@ -1,0 +1,180 @@
+#zzpuma aqui brou, tudo suave?
+objs
+
+#-#-#-# ENTRANCE #-#-#-#
+
+19698, utgexE1, utgex, 300, 0
+19697, utgexE2, utgex, 300, 12
+
+
+#-#-#-# MAIN #-#-#-#
+
+19701, utgex01, utgex, 300, 0
+19702, utgex02, utgex, 300, 0
+19703, utgex03, utgex, 300, 0
+19704, utgex04, utgex, 300, 0
+19705, utgex05, utgex, 300, 0
+19706, utgex06, utgex, 300, 0
+19707, utgex07, utgex, 300, 0
+19708, utgex08, utgex, 300, 0
+19709, utgex09, utgex, 300, 0
+19710, utgex10, utgex, 300, 0
+19711, utgex11, utgex, 300, 0
+19712, utgex12, utgex, 300, 0
+19713, utgex13, utgex, 300, 0
+19714, utgex14, utgex, 300, 0
+19715, utgex15, utgex, 300, 0
+19716, utgex16, utgex, 300, 0
+19717, utgex17, utgex, 300, 0
+19718, utgex18, utgex, 300, 0
+19719, utgex19, utgex, 300, 0
+19720, utgex20, utgex, 300, 0
+19721, utgex21, utgex, 300, 0
+19722, utgex22, utgex, 300, 0
+19723, utgex23, utgex, 300, 0
+19724, utgex24, utgex, 300, 0
+19725, utgex25, utgex, 300, 0
+19726, utgex26, utgex, 300, 0
+
+
+
+#-#-#-# ALPHA #-#-#-#
+
+19727, utgex27, utgex, 300, 12
+19728, utgex28, utgex, 300, 12
+19729, utgex29, utgex, 300, 12
+19730, utgex30, utgex, 300, 12
+19731, utgex31, utgex, 300, 12
+19732, utgex32, utgex, 300, 12
+19733, utgex33, utgex, 300, 12
+19734, utgex34, utgex, 300, 12
+19735, utgex35, utgex, 300, 12
+19736, utgex36, utgex, 300, 12
+19737, utgex37, utgex, 300, 12
+19738, utgex38, utgex, 300, 12
+19739, utgex39, utgex, 300, 12
+19740, utgex40, utgex, 300, 12
+19741, utgex41, utgex, 300, 12
+19742, utgex42, utgex, 300, 12
+19743, utgex43, utgex, 300, 12
+19744, utgex44, utgex, 300, 12
+19745, utgex45, utgex, 300, 12
+19746, utgex46, utgex, 300, 12
+19806, utgex106, utgex, 300, 12
+
+
+
+#-#-#-# TREES #-#-#-#
+
+19774, utgex74, utgex, 300, 0
+19775, utgex75, utgex, 300, 0
+19776, utgex76, utgex, 300, 0
+19777, utgex77, utgex, 300, 0
+19778, utgex78, utgex, 300, 0
+19779, utgex79, utgex, 300, 0
+19780, utgex80, utgex, 300, 0
+19781, utgex81, utgex, 300, 0
+19782, utgex82, utgex, 300, 0
+19783, utgex83, utgex, 300, 0
+19784, utgex84, utgex, 300, 0
+19785, utgex85, utgex, 300, 0
+19786, utgex86, utgex, 300, 0
+19787, utgex87, utgex, 300, 0
+19788, utgex88, utgex, 300, 0
+19789, utgex89, utgex, 300, 0
+19790, utgex90, utgex, 300, 0
+19791, utgex91, utgex, 300, 0
+19792, utgex92, utgex, 300, 0
+19793, utgex93, utgex, 300, 0
+19794, utgex94, utgex, 300, 0
+19795, utgex95, utgex, 300, 0
+19796, utgex96, utgex, 300, 0
+19797, utgex97, utgex, 300, 0
+19798, utgex98, utgex, 300, 0
+19799, utgex99, utgex, 300, 0
+19800, utgex100, utgex, 300, 0
+19801, utgex101, utgex, 300, 0
+19802, utgex102, utgex, 300, 0
+
+
+
+#-#-#-# Low Ground #-#-#-#
+
+19821, utgexLG01, utgex, 300, 0
+19822, utgexLG02, utgex, 300, 0
+19823, utgexLG03, utgex, 300, 0
+19824, utgexLG04, utgex, 300, 0
+19825, utgexLG05, utgex, 300, 0
+19826, utgexLG06, utgex, 300, 0
+19827, utgexLG07, utgex, 300, 0
+19828, utgexLG08, utgex, 300, 0
+19829, utgexLG09, utgex, 300, 0
+19830, utgexLG10, utgex, 300, 0
+19831, utgexLG11, utgex, 300, 0
+19832, utgexLG12, utgex, 300, 0
+19833, utgexLG13, utgex, 300, 0
+19834, utgexLG14, utgex, 300, 0
+19835, utgexLG15, utgex, 300, 0
+19836, utgexLG16, utgex, 300, 0
+19837, utgexLG17, utgex, 300, 0
+19838, utgexLG18, utgex, 300, 0
+19839, utgexLG19, utgex, 300, 0
+19840, utgexLG20, utgex, 300, 0
+19841, utgexLG21, utgex, 300, 0
+
+
+
+end
+tobj
+
+#-#-#-# NIGHT LIGHTS #-#-#-#
+
+#2DFX Lights
+19700, utgL01, utgex, 300, 12, 20, 6
+19699, utgL02, utgex, 300, 12, 20, 6
+
+#Window light
+19747, utgex47, utgex, 300, 12, 20, 6
+19748, utgex48, utgex, 300, 12, 20, 6
+19749, utgex49, utgex, 300, 12, 20, 6
+19750, utgex50, utgex, 300, 12, 20, 6
+19751, utgex51, utgex, 300, 12, 20, 6
+19752, utgex52, utgex, 300, 12, 20, 6
+19753, utgex53, utgex, 300, 12, 20, 6
+19754, utgex54, utgex, 300, 12, 20, 6
+19755, utgex55, utgex, 300, 12, 20, 6
+19756, utgex56, utgex, 300, 12, 20, 6
+19757, utgex57, utgex, 300, 12, 20, 6
+19758, utgex58, utgex, 300, 12, 20, 6
+19759, utgex59, utgex, 300, 12, 20, 6
+19760, utgex60, utgex, 300, 12, 20, 6
+19761, utgex61, utgex, 300, 12, 20, 6
+19762, utgex62, utgex, 300, 12, 20, 6
+19763, utgex63, utgex, 300, 12, 20, 6
+19764, utgex64, utgex, 300, 12, 20, 6
+19765, utgex65, utgex, 300, 12, 20, 6
+19766, utgex66, utgex, 300, 12, 20, 6
+19767, utgex67, utgex, 300, 12, 20, 6
+19768, utgex68, utgex, 300, 12, 20, 6
+19769, utgex69, utgex, 300, 12, 20, 6
+19770, utgex70, utgex, 300, 12, 20, 6
+19771, utgex71, utgex, 300, 12, 20, 6
+19772, utgex72, utgex, 300, 12, 20, 6
+19773, utgex73, utgex, 300, 12, 20, 6
+19803, utgex103, utgex, 300, 12, 20, 6
+19804, utgex104, utgex, 300, 12, 20, 6
+19805, utgex105, utgex, 300, 12, 20, 6
+19807, utgex107, utgex, 300, 12, 20, 6
+19808, utgex108, utgex, 300, 12, 20, 6
+19809, utgex109, utgex, 300, 12, 20, 6
+19810, utgex110, utgex, 300, 12, 20, 6
+19811, utgex111, utgex, 300, 12, 20, 6
+19812, utgex112, utgex, 300, 12, 20, 6
+19813, utgex113, utgex, 300, 12, 20, 6
+19814, utgex114, utgex, 300, 12, 20, 6
+19815, utgex115, utgex, 300, 12, 20, 6
+19816, utgex116, utgex, 300, 12, 20, 6
+
+end
+end
+

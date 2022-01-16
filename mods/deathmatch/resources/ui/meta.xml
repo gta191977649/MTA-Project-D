@@ -10,6 +10,12 @@
     <file src="data/hud/record_background.png" type="client"/>
     <file src="data/hud/name_background.png" type="client"/>
     <file src="data/hud/map_background.png" type="client"/>
+    <file src="data/session/koudou.png" type="client"/>
+
+
+    <file src="data/mfd/time_left.png" type="client"/>
+    <file src="data/digits/digits_9.png" type="client"/>
+    <file src="data/font/Cairo-SemiBold.ttf" type="client"/>
 
     <file src="countdown.webm" type="client"/>
     <file src="start.webm" type="client"/>

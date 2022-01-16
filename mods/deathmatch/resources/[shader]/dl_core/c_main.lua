@@ -11,7 +11,6 @@ isFXSupported = (tonumber(dxGetStatus().VideoCardNumRenderTargets) > 1 and tonum
 shaderTable = {}
 shaderTable.RToutput = {}
 shaderTable.RTinput = {}
-	
 ---------------------------------------------------------------------------------------------------
 -- shader lists
 ---------------------------------------------------------------------------------------------------
@@ -36,7 +35,7 @@ shaderParams = {
 				}
 
 isDRShValid, isDRRtValid, isDREValid, isDREnabled, isDREEnabled = false,  false, false, false, false
-		
+worldObjectLight = 0.3
 ----------------------------------------------------------------------------------------------------------------------------
 -- onClientResourceStart/Stop
 ----------------------------------------------------------------------------------------------------------------------------
@@ -53,6 +52,16 @@ function switchDLOff()
 	setElementData(localPlayer, "dl_core.on", false, false)
 end
 
+function setWorldObjectLighting(amount) 
+	worldObjectLight = amount
+	dxSetShaderValue(shaderTable.RTinput.SHWorld,"ambient",worldObjectLight)
+end
+
+function getWorldObjectLighting() 
+	return worldObjectLight
+end
+
+
 addEventHandler( "onClientPreRender", root,
     function()
 		if not isDREnabled then return end
@@ -66,6 +75,7 @@ addEventHandler( "onClientPreRender", root,
 addEventHandler( "onClientHUDRender", root,
     function()
 		if not isDREEnabled then return end
+		
 		dxSetRenderTarget(targetTable.RTOut1, true)
 		dxDrawImage(0, 0, scx * emissiveSettings.scale, scy * emissiveSettings.scale, shaderTable.RToutput.SHBrightPass) 
 		dxSetRenderTarget(targetTable.RTOut2, true)
@@ -171,7 +181,8 @@ function functionTable.createWorldShaders()
 		shaderTable.RTinput.SHWater = dxCreateShader(unpack(shaderParams.SHWater))
 		shaderTable.RTinput.SHPed = dxCreateShader(unpack(shaderParams.SHPed))
 		shaderTable.RTinput.SHVehPaint = dxCreateShader(unpack(shaderParams.SHVehPaint))
-
+		
+		dxSetShaderValue(shaderTable.RTinput.SHWorld,"ambient",worldObjectLight)
 		isDRShValid = true
 			
 			for i,thisPart in pairs(shaderTable.RTinput) do

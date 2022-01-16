@@ -2,7 +2,7 @@
     <script src="test_s.lua" type="server" />
     <script src="fps.lua" type="client" />
     <script src="test_c.lua" type="client" />
-    <script src="info.lua" type="client" />
+
     <script src="debug_s.lua" type="server" />
     
     <script src="airbrake.lua" type="client" />
@@ -10,6 +10,7 @@
     <!-- 
     <script src="npc_test.lua" type="server" />
     <script src="vc_trail.lua" type="client" />
+        <script src="info.lua" type="client" />
     <file src="mta-helper.fx" type="client" />
     -->
     <file src="fx/tex_names.fx" type="client" />

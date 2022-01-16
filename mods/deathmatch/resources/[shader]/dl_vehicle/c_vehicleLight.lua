@@ -10,12 +10,12 @@
 local vehLiTable = { leftEN ={}, rightEN ={}, left={},right={}, color ={}, isBlown={}, vehType={}, strOut={} }
 
 local gLightTheta = math.rad(6) -- Theta is the inner cone angle (6)
-local gLightPhi = math.rad(20) -- Phi is the outer cone angle (18)
+local gLightPhi = math.rad(40) -- Phi is the outer cone angle (18)
 local gLightFalloff = 1.5 -- light intensity attenuation between the phi and theta areas
-local gLightAttenuation = 18 -- 15
-local gLightAttenuationPower = 1.5
+local gLightAttenuation = 80 -- 15
+local gLightAttenuationPower = 5
 local flTimerUpdate = 200 -- the effect update time interval
-local lightMaxDistance = 180
+local lightMaxDistance = 600
 
 local excludeVehicleId = {441,464,501,465,564,571,594,606,607,610,611,584,608,450,591}
 
