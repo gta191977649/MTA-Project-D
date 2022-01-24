@@ -1,0 +1,10 @@
+<meta>
+    <script src="course.lua"/>
+
+    <include resource="streamer"/>
+    <!-- Maps -->
+    <include resource="free"/>
+    <include resource="myogi"/>
+    <include resource="myogi"/>
+    <include resource="akina_lake"/>
+</meta>

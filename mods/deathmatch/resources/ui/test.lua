@@ -10,8 +10,8 @@ video = dgsCreateMask(browser,"backgroundFilter",{
 
 render = dgsCreateImage(0,0,1,1,video,true)
 dgsMediaPlay(browser)
-
+--[[
 setTimer(function() 
 	playSound("data/sfx/test.mp3",true)
 end,3700,1)
-
+-]]

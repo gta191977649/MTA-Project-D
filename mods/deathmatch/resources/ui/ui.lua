@@ -6,8 +6,8 @@ PADDING = 0.01
 HUD = {}
 
 HUD.laptime = dgsCreateImage(0 + PADDING,0.07  + PADDING, 0.28, 0.23/2,"data/hud/time_background_extended.png",true)
-HUD.record = dgsCreateImage(0.742- PADDING,0.07+ PADDING, 0.258, 0.18,"data/hud/record_background_extended.png",true)
-HUD.player = dgsCreateImage(0.742- PADDING,0.28+ PADDING, 0.258, 0.067,"data/hud/name_background.png",true)
+HUD.record = dgsCreateImage(0.742- PADDING,0.07+ PADDING, 0.258, 0.2,"data/hud/record_background_extended.png",true)
+HUD.player = dgsCreateImage(0.742- PADDING,0.28+ PADDING, 0.258, 0.07,"data/hud/name_background.png",true)
 local scale = 0.4
 HUD.minimap = dgsCreateImage(0.025+ PADDING,0.575+ PADDING, scale/2, scale,"data/hud/map_background.png",true)
 scale = 0.14
@@ -28,6 +28,6 @@ LABEL = {}
 LABEL.laptime = dgsCreateLabel(0,0.48,0.85,0.3,"0'00.000",true,HUD.laptime )
 dgsSetFont( LABEL.laptime, FONT.ui ) 
 dgsSetProperty(LABEL.laptime,"alignment",{"center","center"})
-
+dgsSetProperty(LABEL.laptime,"shadow",{1,1,tocolor(0,0,0,255),true})
 
 exports.dl_core:setWorldObjectLighting(0.3)

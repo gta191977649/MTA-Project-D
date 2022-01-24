@@ -1,0 +1,12 @@
+<meta>
+	<info description="WMMT Map Shaders" version="0.0.1" type="script" />
+	<script src="firework.lua" type="client" />
+	<script src="ferriswheel.lua" type="client" />
+	<script src="c_water.lua" type="client" />
+	<file src="firework.fx" type="client" />
+	<file src="ferriswheel.fx" type="client" />
+	<file src="water.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+	<file src="images/smallnoise3d.dds" type="client" />
+	<file src="images/cube_env256.dds" type="client" />
+</meta>

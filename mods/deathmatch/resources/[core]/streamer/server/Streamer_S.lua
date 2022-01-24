@@ -257,7 +257,7 @@ function definePlacement(dTable,resourceName)
 		pos = {x,y,z},
 		rot = {rx,ry,rz},
 		info = modelInfo,
-		flag = flag:gsub('\r', ''),
+		flag = flag and flag:gsub('\r', '') or "OBJ",
 	})
 
 end
@@ -352,10 +352,12 @@ function changeObjectModel(name,newModel)
 end
 
 function onResourceLoad ( resource )
+
 	local resource = getResourceFromName(resource)
 	if getResourceInfo ( resource, 'Streamer') or getResourceInfo ( resource, 'cStream') then
 		local name = getResourceName(resource)
-		triggerClientEvent("MTAStream_Client",client,data.placementData[name],data.resourceData[name],name)
+		--triggerClientEvent("MTAStream_Client",client,data.placementData[name],data.resourceData[name],name)
+		print(string.format("[Streamer]: map %s is ready",name))
 	end
 end
 addEvent( "onResourceLoad", true )
@@ -420,3 +422,17 @@ function getMapElements(map)
 	return data.resourceObjects[map]
 end
 
+function loadmap (player, map)
+	if data.resourceData[map] then
+		triggerClientEvent("MTAStream_ClientLoad",player,data.placementData[map],data.resourceData[map],map)
+		outputChatBox(string.format("[Streamer]: map %s start load for %s",map,getPlayerName(player)))
+	else
+		outputChatBox("map "..map.." does not exist!",player)
+	end
+end
+function unloadAllMap (player)
+	triggerClientEvent("MTAStream_ClientUnLoadAll",player)
+end
+function setMapDimenstion (player,map,dim)
+	triggerClientEvent("MTAStream_ClientSetDim",player,map,dim)
+end
